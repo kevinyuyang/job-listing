@@ -18,3 +18,61 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .jumbotron {
+  background-image:url('https://ww4.sinaimg.cn/large/006tNc79gy1fc7v86275wj30pe0dldqv.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+.title {
+  font-family: "sans-serif";
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  color:  #FFFF00;
+}
+
+.slogan {
+  font-family: "sans-serif";
+  margin-top: 70px;
+  margin-bottom: 120px;
+  text-align: left;
+  color:  #333333;
+  top: 6px;
+}
+
+.lead {
+  font-family: "sans-serif";
+  margin-bottom: 60px;
+  text-align: left;
+  color: #333333;
+}
+
+.caption {
+  margin: 30px;
+  text-align: center;
+  top: 20px;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin-top: 60px;
+}
+
+.custab{
+  border: 1px solid #ccc;
+
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
